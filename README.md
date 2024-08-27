@@ -30,7 +30,7 @@ $$y(1)=\frac{1}{3}[-2(\frac{5}{3})-2+2(1)-3(0)] = -\frac{10}{9}$$
 #### k=2
 $$y(2)=\frac{1}{3}[-2(-\frac{10}{9})+\frac{5}{3}+2(1)-3(1)] = \frac{26}{27}$$
 
-### Transformada Z
+## Transformada Z
 Es la contraparte de la transformada de LaPlace y por ende sus diferencias son muy diferentes. 
 LaPLace:💡 *Ejemplo:*  $$L\{f(t)\} = \int_{0}^{\infty} f(t) \cdot e^{-st} \, dt$$
 Tranzformada Z: 💡 *Ejemplo:*  $$Z\{f(k)\} = \sum_{k=0}^{\infty} f(k) \cdot z^{-k} = F(z)$$
@@ -63,7 +63,7 @@ La función de transferencia es la relación que existe entre la salida y la ent
 
   $$\frac{Y(z)}{U(z)} = \frac{2z-3}{3z^{2}+2z-1}$$
 
-### Ejercicio
+## Ejercicio
 * Funcion de transferencia:
 
   $$y(k) - 4y(k-1) + 5y(k-2) - 8y(k-3) =  u(k) - 3u(k-1) + 9u(k-2)$$
